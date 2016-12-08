@@ -11,14 +11,11 @@ class App extends React.Component {
   }
 
   render() {
-
     return (
       <div>
         <p>{this.state.status}</p>
-        <p>stuffs</p>
       </div>
     )
-
   }
 }
 
