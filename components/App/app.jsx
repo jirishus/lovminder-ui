@@ -1,11 +1,13 @@
 import React from 'react';
 
 class App extends React.Component {
-  constructor(props) {
+  constructor() {
 
-    super(props);
+    super();
+
     this.state = {
-      status: 'Active'
+      status: 'Active',
+      owner: 'Lost'
     }
     
   }
