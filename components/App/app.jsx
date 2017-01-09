@@ -6,16 +6,17 @@ class App extends React.Component {
     super();
 
     this.state = {
-      status: 'Active',
-      owner: 'Lost'
+      pageTitle: 'Luvminder',
+      catchPhrase: 'Your affectionate reminder robot'
     }
     
   }
 
   render() {
     return (
-      <div>
-        <p>{this.state.status}</p>
+      <div className="mainView">
+        <p>{this.state.pageTitle}</p>
+        <p>{this.state.catchPhrase}</p>
       </div>
     )
   }

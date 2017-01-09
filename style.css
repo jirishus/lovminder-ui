@@ -1,5 +1,17 @@
+* {
+ padding: 0;
+ margin:0;
+}
 #app {}
 section {
- width: 65%;
  margin:0 auto;
+ text-align: center;
+}
+#smsForm {
+ padding:50px 0;
+}
+.mainView {
+ background: #eee;
+ padding: 50px 0;
+ text-align: center;
 }
