@@ -1,7 +1,7 @@
 import React from 'react';
 
 function reportInfo() {
-  alert('Generating Report');
+  console.log('Generating Report');
 }
 
 class App extends React.Component {
@@ -10,7 +10,6 @@ class App extends React.Component {
     super();
 
     this.state = {
-      pageTitle: 'Luvminder',
       catchPhrase: 'Your affectionate reminder robot'
     }
     
@@ -19,9 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="mainView">
-        <p>{this.state.pageTitle}</p>
         <p>{this.state.catchPhrase}</p>
-        <button className="square" onClick={()=> reportInfo()}>Get Info</button>
       </div>
     )
   }

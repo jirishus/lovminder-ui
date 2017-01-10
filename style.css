@@ -2,16 +2,17 @@
  padding: 0;
  margin:0;
 }
+.mainHeader {
+ border-bottom: 2px solid #333;
+ padding: 20px 0;
+}
 #app {}
 section {
  margin:0 auto;
- text-align: center;
 }
 #smsForm {
  padding:50px 0;
 }
 .mainView {
- background: #eee;
  padding: 50px 0;
- text-align: center;
 }
