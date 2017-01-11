@@ -4,12 +4,18 @@ class Header extends React.Component {
 
  constructor(props) {
   super(props);
+
+  this.state = {
+   headerTitle : 'LovMinder'
+  }
+
  }
 
  render() {
   return (
     <header className="mainHeader">
-     <p>Generic Header</p>
+     <h2>{this.state.headerTitle} <span>make your affection smarter</span></h2>
+     <p>verrsion 1.0.0</p>
     </header>
    )
  }

@@ -19,6 +19,7 @@ class App extends React.Component {
     return (
       <div className="mainView">
         <p>{this.state.catchPhrase}</p>
+        <button onClick={ ()=> reportInfo() }></button>
       </div>
     )
   }

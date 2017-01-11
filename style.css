@@ -2,9 +2,15 @@
  padding: 0;
  margin:0;
 }
+.lead {
+ margin-top: 20px;
+}
 .mainHeader {
  border-bottom: 2px solid #333;
  padding: 20px 0;
+}
+.mainHeader span {
+ font-size: 12px;
 }
 #app {}
 section {
@@ -12,7 +18,14 @@ section {
 }
 #smsForm {
  padding:50px 0;
+ text-align: center;
+}
+.smsForm input {
+ width: 100%;
 }
 .mainView {
  padding: 50px 0;
+}
+.submitButton {
+ margin-top:30px;
 }
