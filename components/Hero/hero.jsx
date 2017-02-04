@@ -14,8 +14,12 @@ class Hero extends React.Component {
   }
 
   handleSubmit(event) {
-    console.log('accesing data ...');
-    console.log(this.state.value);
+    
+    if (this.state.value === '') {
+      console.log('Provide A Value')
+    } else {
+      console.log(this.state.value);
+    }
     event.preventDefault();
   }
 
