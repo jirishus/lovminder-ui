@@ -14,7 +14,7 @@ class Header extends React.Component {
  render() {
   return (
     <header className="mainHeader">
-     <h2>{this.state.headerTitle} <span>make your affection smarter</span></h2>
+     <h2>{this.state.headerTitle} <span>Automate Your Affection</span></h2>
      <p>version 1.0.0</p>
     </header>
    )
